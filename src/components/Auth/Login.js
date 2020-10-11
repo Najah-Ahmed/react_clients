@@ -65,7 +65,6 @@ const Login = (props) => {
                 <input
                   type='email'
                   name='email'
-                  value={email}
                   id='email'
                   placeholder='Email'
                   aria-label='email'
@@ -87,7 +86,6 @@ const Login = (props) => {
                   name='password'
                   id='password'
                   className='w-full px-5  py-1 text-gray-700 bg-gray-200 rounded'
-                  value={password}
                   onChange={onChange}
                   placeholder='*******'
                   aria-label='password'

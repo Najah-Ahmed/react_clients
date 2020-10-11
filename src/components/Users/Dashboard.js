@@ -12,6 +12,11 @@ const Dashboard = () => {
           <p className='lg:w-1/2 w-full leading-relaxed text-base'>
             User can View All his/her Activity
           </p>
+          <Link
+            to='/profile'
+            className='flex mx-auto mt-16 text-white justify-center bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-600 rounded text-lg'>
+            Profile
+          </Link>
         </div>
         <div className='flex flex-wrap -m-4 '>
           <div className='p-4 lg:w-1/3 hover:bg-orange-600'>
@@ -22,7 +27,7 @@ const Dashboard = () => {
               <p className='leading-relaxed mb-3'>payment checkouts</p>
 
               <Link
-                to='/payment'
+                to='/userpayments'
                 className='text-orange-500 text-semibold inline-flex items-center'>
                 View All
                 <svg

@@ -134,7 +134,6 @@ const Register = (props) => {
                 className='w-full px-5 py-1 text-gray-700 bg-gray-200 rounded'
                 type='password'
                 name='password'
-                value={password}
                 onChange={onChange}
                 minLength='6'
               />
@@ -152,7 +151,6 @@ const Register = (props) => {
                 className='w-full px-5 py-1 text-gray-700 bg-gray-200 rounded'
                 type='password'
                 name='password2'
-                value={password2}
                 onChange={onChange}
                 minLength='6'
               />
